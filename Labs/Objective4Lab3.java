@@ -8,7 +8,9 @@ public class Objective4Lab3 {
 
     Scanner input = new Scanner(System.in);
     System.out.println("How old are you?");
-    birthYear = 2021 - input.nextInt();
+    age = input.nextInt();
+    currentYear = 2021;
+    birthYear = currentYear - age;
 
     System.out.println("You were born in " + birthYear);
     input.close();
